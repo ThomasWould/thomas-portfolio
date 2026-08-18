@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Masonry Website Redesign Case Study — Thomas Wood",
   description:
     "A client website redesign case study focused on service organization, premium visual presentation, SEO, and a clearer customer experience.",
+  alternates: {
+    canonical: "/work/masonry-redesign",
+  },
   openGraph: {
     title: "Masonry Website Redesign Case Study — Thomas Wood",
     description:

@@ -69,6 +69,9 @@ export const metadata: Metadata = {
   title: "LoL Draft Helper — Thomas Wood",
   description:
     "A frontend engineering and AI product case study about combining champion data, contextual recommendation logic, and OpenAI-powered coaching in one draft workflow.",
+  alternates: {
+    canonical: "/work/lol-draft-helper",
+  },
   openGraph: {
     title: "LoL Draft Helper — Thomas Wood",
     description:

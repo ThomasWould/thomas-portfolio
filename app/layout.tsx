@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { siteUrl } from "@/config/site";
 import "./globals.css";
 
 const instrumentSans = localFont({
@@ -17,9 +18,13 @@ const ibmPlexMono = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Thomas Wood — Design + Engineering",
   description:
     "Thomas Wood is a software engineer, web designer, and AI product builder creating useful digital experiences around real problems.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Thomas Wood — Design + Engineering",
     description:

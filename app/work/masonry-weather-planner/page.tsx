@@ -58,6 +58,9 @@ export const metadata: Metadata = {
   title: "Masonry Weather Planner Case Study — Thomas Wood",
   description:
     "A product design and frontend development case study about turning job context and live weather data into masonry-focused decisions.",
+  alternates: {
+    canonical: "/work/masonry-weather-planner",
+  },
   openGraph: {
     title: "Masonry Weather Planner Case Study — Thomas Wood",
     description:
